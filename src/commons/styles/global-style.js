@@ -27,7 +27,13 @@ html, body {
 }
 
 .mb-2 {
-    margin-
+    margin-bottom: 16px;
+}
+.pt-2 {
+    padding-top: 16px;
+}
+.cursor{
+    cursor: pointer;
 }
 
 `
