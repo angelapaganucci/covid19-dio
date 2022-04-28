@@ -13,9 +13,16 @@
             "assets:/*":[
                 "./assets/*"
             ],
-            "commoons:/*":[
-                "./commoons/*"
+            "resources/*":[
+                "./resources/*"
+            ],
+            "commons:/*":[
+                "./commons/*"
             ]
         }
-    }
+    },
+    "exclude": [
+        "node_modules",
+        "build"
+    ]
 }
